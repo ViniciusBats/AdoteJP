@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="CSS\css Adote Vidas JP.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+
+        <div id="menu" >
+            <ul id="linksmenu">
+              <div id="menu" >
+                <ul id="linksmenu">
+                  <li><a href="principal.html">Home</a></li>
+                  <li><a href="ONGs e etc.html">ONG's e Instituições</a></li>
+                  <li><a href="menu relatos">Forum de relatos</a></li>
+                  <li><a href="login.html">Login</a></li>
+                </ul>
+              </div>
+            </ul>    
+          </div> 
+
+    <main>
+        <h1>Create Account</h1>
+
+        <form action="">
+            <label for="name">
+                <span>Name</span>
+                <input type="text" id="name" name="name">
+            </label>
+
+            <label for="email">
+                <span>E-mail</span>
+                <input type="email" id="email" name="email">
+            </label>
+
+            <label for="password">
+                <span>Password</span>
+                <input type="password" id="password" name="password">
+            </label>
+
+            <input type="submit" value="Sign Up" id="button">
+        </form>
+    </main>
+
+</body>
+</html>
