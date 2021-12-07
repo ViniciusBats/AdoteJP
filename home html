@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Adote Vidas JP - Principal </title>
+    <link href="CSS\css Adote Vidas JP.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+
+  <header class="cabecalho">
+
+    <div id="menu" >
+      <ul id="linksmenu">
+        <div id="menu" >
+          <ul id="linksmenu">
+            <li><a href="principal.html">Home</a></li>
+            <li><a href="ONGs e etc.html">ONG's e Instituições</a></li>
+            <li><a href="menu relatos">Forum de relatos</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+        </div>
+      </ul>    
+    </div>
+      
+  </header>
+
+  <body>
+  
+    <br>
+    <br>
+    <br>
+
+    <h1 style="text-align: center" >Adote Vidas JP</h1>
+    <h2 style="text-align: center">Adotar é salvar</h2>
+    <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/D_Rx4qZ8QRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>    
+
+    <h3>Adote Vidas JP </h3>
+    <p>Adote Vidas JP tem como intuito lhe informar sobre a adoção de animais em Jão Pessoa. A adoção é uma atitude nobre, quando você adota um cachorrinho, você está ajudando ele para que ele tenha uma vida de qualidade e feliz.</p>
+     
+    <p>Segundo Pádua Dias:</p>
+    <blockquote cite="https://www.pensador.com/adocao/">
+    <div class="outside">"Adoção: amor em atitude e ação."</div>
+    </blockquote>
+
+    <h3>Como se preparar para a adoção? </h3>
+    <p> Para adotar um cachorrinho você precisará de: </p>
+    <ul>
+      <li>Possuir idade mínima do adotante precisa ser maior de 21 anos</li>
+      <li>Precisa apresentar o RG</li>
+      <li>Apresentar CPF</li>
+      <li>Apresentar comprovante de residência recente</li>
+      <li>Assinar um termo se comprometendo a cuidar do animal</li>
+    </ul>
+    
+  </body>
+  
+</html>
