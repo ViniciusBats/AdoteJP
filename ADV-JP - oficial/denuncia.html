@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style (2).css">
+</head>
+
+<body>
+    <nav style="padding: 10px; ">
+        <div class="logo"></div>
+        <a href="home.html">Home</a></li>
+        <a href="instituicoes.html">ONG's e Instituições</a></li>
+        <a href="denuncia.html">Denúncias</a></li>
+        <a href="login.html">Login</a></li>
+        <a href="pets.html">Pets</a></li>
+    </nav>
+    <div style="margin-top: 70px;" class="container">
+        <div class="titulo">
+            <h1>Área de denúncias</h1>
+            <p>preencha as informações abaixo, lembrando que o "*" indica os campos obrigatórios.</p>
+        </div>
+        <form method="POST" action="https://formsubmit.co/vinihenriquebs@gmail.com">    
+            <div class="user-details">
+                <div class="area">
+                    <label class="details" for="nome">Nome*:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Ex: Vinicius" required>
+                </div>
+
+                <div class="area">
+                    <label class="details" for="sobrenome">Sobrenome*:</label>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Ex: Batista" required>
+                </div>
+
+                <div class="area">
+                    <label class="details" for="email">E-mail*:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div class="area">
+                    <label class="details">Telefone para contato:</label>
+                    <input type="tel" name="telefone" id="cell" placeholder="Digite DDD + Fone sem pontos ou traços." maxlength="11">
+                </div>
+            </div>
+            <div class="texto"><h2>Descrição</h2>
+                <p>Descreva abaixo o assunto de sua manifestação. Caso seja possível, envie um anexo para melhor identificarmos o ocorrido.</p>
+            </div>
+            <div class="blocotexto">
+                <br>
+                <textarea row="6" style="width: 26em" name="message" id="message" placeholder="Atribua aqui os detalhes do acontecimento."></textarea>
+            </div>
+            <div class="arquivos">
+                <div class="area">
+                    <label>Arquivo 1</label>
+                    <input type="file" name="arquivo-usuario">
+                </div>
+            
+                <div class="area">
+                    <label>Arquivo 2</label>
+                    <input type="file" name="arquivo-usuario">
+                </div>
+            </div>
+            <br>
+            <div class="texto">
+                <h2>Local do fato</h2>
+            </div>
+            <div class="locais">
+                <div class="blocobairros">
+                    <label>Bairro:</label>
+                    <select name="bairros" >
+                        <option disabled="disabled" selected="selected">-- Selecione seu bairro</option>
+                        <option value="Manaíra">Manaíra</option>
+                        <option value="Bessa">Bessa</option>
+                        <option value="Altiplano">Altiplano</option>
+                        <option value="Bairro dos estados">Bairro dos estados</option>
+                        <option value="Bancários">Bancários</option>
+                        <option value="Mangabeira">Mangabeira</option>
+                    </select>
+                </div>
+                <div class="local">
+                    <label>Rua:</label>
+                    <input type="text" name="rua" id="rua" placeholder="Ex: Rua comerciane josé...">
+                </div>
+                <div class="area">
+                    <label>Ponto de referência:</label>
+                    <input type="text" name="ponto de referência" id="reference" placeholder="">
+                </div>
+                <br>
+            </div>
+            <input type="hidden" name="_captcha" value ="false">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/html/obrigado.html">
+            <div class="button">
+                <input class="botao" type="submit"></input>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
